@@ -1,4 +1,4 @@
-**Специально для LoftSchool**
+
 
 Как установить проект 
 1. git clone https://github.com/kovaldn/webpack2foryoutube.git app
