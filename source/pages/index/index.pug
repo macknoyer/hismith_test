@@ -1,0 +1,228 @@
+extends ../base
+
+block title
+	|	Index page
+block main
+	header
+		.header-left
+			a.logo(href="#")
+				img(src=require("./logo.svg"))
+		.header-right
+			a.phone-link(href="tel:8-800-000-00-00") 8 800 000 00 00
+	.wrapper-grey
+		.container
+			.row
+				.owl-carousel#owl-carousel
+					.container
+						.row
+							.col-lg-6.col-xs-12 
+								.slider__left
+									.slider__left-name 
+										span Наследование и семейное право
+									p – сейчас они у меня получат
+									span.slider__left-time Нина Петровна, 2 часа ночи
+							.col-lg-6.col-xs-12
+								.slider__right
+					.container
+						.row
+							.col-lg-6.col-xs-12 
+								.slider__left
+									.slider__left-name 
+										span Наследование и семейное право
+									p – сейчас они у меня получат
+									span.slider__left-time Нина Петровна, 2 часа ночи
+							.col-lg-6.col-xs-12 
+								.slider__right
+	.container
+		.row.row-eq-height
+			.col-lg-6.col-sm-12.col-xs-12
+				.descript__left
+					h2 Вам всегда доступно
+					ul
+						li Личный кабинет: аудиозаписи всех разговоров с юристом
+						li Экстренные консультации детям владельцев карт
+						li Круглосуточные бесплатные звонки в неограниченных количествах
+						li Ответ на звонок из любой точки мира
+						li «Поговорите с моим адвокатом»
+			.col-lg-6.col-sm-12.col-xs-12
+				.descript__right
+					h2 С картой Тонтрек вы получаете
+					ul
+						li Круглосуточная первая помощь - в любой момент на всей территории России;
+						li Дистонционная поддержка: где бы вы не находились, адвокат всегда рядом;
+						li Звонок бесплатный: консультация будет длиться столько времени, сколько нужно;
+						li Личный кабинет владельца карты: возможность прослушать аудиозапись своего разговора с адвокатом, переписка с юристом, более 100 типовых договоров, инструкций и памяток ;
+						li Экстренные консультации детям владельцев карт: в любой экстренной ситуации ребенок клиента будет иметь круглосуточную юридическую защиту;
+	.container
+		.row
+			h2 Отзывы клиентов
+			.owl-carousel#reviews
+				.review
+					.review__block
+						.review__block-img
+							img(src=require("./avatar-01.png"), srcset="images/avatar-01@2x.png 2x, images/avatar-01@3x.png 3x")
+						span Игорь Дронин
+					p Мой клиент попал в ДТП на Садовом кольце, несмотря на очевидность произошедшего, второй участник отказывался признать себя виноватым. Юристы вели дело с самого начала, то есть с составления протокола до самой группы разбора, которых в итоге было две. Тем не менее, все закончилось хорошо, наш клиент прав в этой ситуации и получил возмещение ущерба, предусмотренное страховкой.
+				.review
+					.review__block
+						.review__block-img
+							img(src=require("./avatar-01.png"), srcset="images/avatar-01@2x.png 2x, images/avatar-01@3x.png 3x")
+						span Игорь Дронин
+					p Мой клиент попал в ДТП на Садовом кольце, несмотря на очевидность произошедшего, второй участник отказывался признать себя виноватым. Юристы вели дело с самого начала, то есть с составления протокола до самой группы разбора, которых в итоге было две. Тем не менее, все закончилось хорошо, наш клиент прав в этой ситуации и получил возмещение ущерба, предусмотренное страховкой.
+				.review
+					.review__block
+						.review__block-img
+							img(src=require("./avatar-01.png"), srcset="images/avatar-01@2x.png 2x, images/avatar-01@3x.png 3x")
+						span Игорь Дронин
+					p Мой клиент попал в ДТП на Садовом кольце, несмотря на очевидность произошедшего, второй участник отказывался признать себя виноватым. Юристы вели дело с самого начала, то есть с составления протокола до самой группы разбора, которых в итоге было две. Тем не менее, все закончилось хорошо, наш клиент прав в этой ситуации и получил возмещение ущерба, предусмотренное страховкой.
+				.review
+					.review__block
+						.review__block-img
+							img(src=require("./avatar-01.png"), srcset="images/avatar-01@2x.png 2x, images/avatar-01@3x.png 3x")
+						span Игорь Дронин
+					p Мой клиент попал в ДТП на Садовом кольце, несмотря на очевидность произошедшего, второй участник отказывался признать себя виноватым. Юристы вели дело с самого начала, то есть с составления протокола до самой группы разбора, которых в итоге было две. Тем не менее, все закончилось хорошо, наш клиент прав в этой ситуации и получил возмещение ущерба, предусмотренное страховкой.
+	.wrapper-green
+		.wrapper-green_triangles
+			.container
+				.row
+					.col-lg-3.col-md-4.col-sm-5.col-xs-12
+						.consult__text-block
+							span.consult__text-text2 А кто оказывает консултации?
+					.col-lg-9.col-md-8.col-sm-7.col-xs-12
+						span.consult__text «Тонтрек»— компания, специализирующаяся на оказании дистанционной<br/>(по телефону) круглосуточной юридической помощи гражданам и организациям по любым правовым вопросам. При разработке и внедрении услуги менеджмент компании воспользовался многолетним европейским опытом оказания дистанционных юридических услуг. 
+	.container 
+		.row
+			.col-lg-6.col-md-12
+				.myBarChart
+					canvas(id='myBarChart', height="220")
+			.col-lg-6.col-md-12
+				.myBarChart
+					canvas(id='myBarChart2', height="220")
+	.container
+		.row
+			.col-lg-8.col-md-12
+				p.table__head-text Приобритение карты юридической помощи избавляет от необходимости найма<br/> адвоката, экономит ваше время и деньги.
+				ul.table__head-list
+					li Вы просто выбираете ту карту – и, соответственно, тот тариф, пакет услуг в котором актуален для вас.
+					li Все остальное – забота специалистов Тонтрек.
+					li Мы предлагаем юридическую помощь в удобном для клиента формате, доступную всегда и везде. 
+	.container
+		.row
+			.table__wrap
+				table
+					tr
+						td
+						td 
+							.table-card
+								img(src=require('./bitmap_green.png'), srcset='images/bitmap_green@2x.png 2x, images/bitmap_green@3x.png 3x')
+								.table-head Оптимальный
+						td
+							.table-card
+								img(src=require('./bitmap_grey.png'), srcset='images/bitmap_grey@2x.png 2x, images/bitmap_grey@3x.png 3x')
+								.table-head Семейный
+						td
+							.table-card
+								img(src=require('./bitmap_gold.png'), srcset='images/bitmap_gold@2x.png 2x, images/bitmap_gold@3x.png 3x')
+								.table-head VIP
+					tr
+						td
+							.table-tooltip-block 
+								a(class='table-link') Личный кабинет
+								.table-tooltip Это персональный раздел находящийся на сайте Компании «Тонтрек» и доступный только Владельцам Карт.
+
+						td
+							.table-marker 
+						td
+							.table-marker
+						td
+							.table-marker
+					tr
+						td 
+							.table-tooltip-block
+								a(class='table-link') Юридические консультации 12/7
+								.table-tooltip Это персональный раздел находящийся на сайте Компании «Тонтрек» и доступный только Владельцам Карт.
+						td
+							.table-marker
+						td
+							.table-marker
+						td
+							.table-marker
+					tr
+						td 
+							.table-tooltip-block
+								a(class='table-link') Стоимость годового обслуживания
+								.table-tooltip Это персональный раздел находящийся на сайте Компании «Тонтрек» и доступный только Владельцам Карт.
+						td
+							.table-marker
+						td
+							.table-marker
+						td
+							.table-marker
+					tr
+						td Стоимость годового обслуживания
+						td 
+							.table-price 7 500
+								span.ruble &#8381; 
+								span В ГОД
+						td
+							.table-price 12 500
+								span.ruble &#8381; 
+								span В ГОД
+						td
+							.table-price 25 000
+								span.ruble &#8381; 
+								span В ГОД
+					tr.no_border
+						td
+						td
+							.table-button 
+								a купить
+						td
+							.table-button.grey
+								a купить
+						td
+							.table-button.gold
+								a купить
+	.wrapper-green
+		.wrapper-green_triangles.double
+			h2 Будьте в курсе
+			p.wrapper-green_triangles-txt Понятные объяснения запутанных законов у вас в почте
+			.wrapper-green_triangles-line
+			p.wrapper-green_triangles-txt Оставьте свой телефон или e-mail, чтобы первыми узнавать самые важные новости.
+			form.container.form
+				.row
+					input(type="text" class="phone_with_ddd")/
+					span или
+					input(type="text")/
+					input(type="submit" value="Отправить" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$")/
+					p.form-txt Никакого спама — слово юриста. Хотите убедиться перед тем, как подписаться на рассылку? <a>Посмотрите</a>, как это выглядит.
+			.wrapper-green_triangles-line
+			p.wrapper-green_triangles-txt Мы в социальных сетях
+			.social
+				a
+					i(class="fa fa-vk" aria-hidden="true")
+				a
+					i(class="fa fa-facebook" aria-hidden="true")
+				a
+					i(class="fa fa-twitter" aria-hidden="true")
+				a
+					i(class="fa fa-youtube" aria-hidden="true")
+	.wrapper
+		.container
+			.row
+				.col-lg-12
+					h1.chlnge Конкурсы
+	footer.wrapper-green
+		.wrapper-green_triangles.double
+			.container
+				.row.row-eq-height
+					.col-lg-4.col-md-12.col-xs-12
+						p Правила использования информации, размещенной на сайте Компании (ООО «Тонтрек»)
+						p © 2010-2017 
+					.col-lg-4.col-md-12.col-xs-12
+						a Сделано в HiSmith
+					.col-lg-4.col-md-12.col-xs-12
+						a.info Информация для СМИ
+
+
+

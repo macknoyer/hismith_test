@@ -1,0 +1,34 @@
+
+// MIXINS
+@mixin background-image-retina($file, $type, $width, $height) {
+  background-image: url($file + '.' + $type);
+
+  @media (-webkit-min-device-pixel-ratio: 2) {
+	& {
+	  background-image: url($file + '@2x.' + $type);
+	  -webkit-background-size: $width $height;
+	}
+  }  
+  @media (-webkit-min-device-pixel-ratio: 3) {
+	& {
+	  background-image: url($file + '@3x.' + $type);
+	  -webkit-background-size: $width $height;
+	}
+  }
+}
+@mixin background-image-retina-set($file, $file2, $type, $width, $height) {
+  background-image: url($file + '.' + $type), url($file2 + '.' + $type);
+
+  @media (-webkit-min-device-pixel-ratio: 2) {
+	& {
+	  list-style-image: url($file + '@2x.' + $type), url($file2 + '@2x.' + $type);
+	  -webkit-background-image: $width $height;
+	}
+  }  
+  @media (-webkit-min-device-pixel-ratio: 3) {
+	& {
+	  list-style-image: url($file + '@3x.' + $type), url($file2 + '@3x.' + $type);
+	  -webkit-background-image: $width $height; 
+	}
+  }
+}
