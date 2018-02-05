@@ -1,6 +1,10 @@
 
 
 Как установить проект 
-2. cd !$
-3. yarn install
-4. yarn run start
+
+1. cd !$
+
+2. yarn install
+
+3. yarn run start
+
